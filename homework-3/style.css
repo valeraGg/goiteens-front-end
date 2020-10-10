@@ -20,12 +20,15 @@ nav li {
   font-size: 14px;
 }
 
-nav .active a {
-     color: #03a9f3;
+nav a:link,
+nav a:visited {
+  text-decoration: none;
+  color: #626262;
 }
 
-nav a {
-  text-decoration: none;
+nav a.active,
+nav a:hover {
+  color: #03a9f3;
 }
 
 main {
@@ -37,13 +40,17 @@ main {
 .block {
   display: inline-block;
   width: 420px;
-  height: 600px;
   text-align: left;
   vertical-align: top;
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-right: 60px;
+  margin-bottom: 120px;
 }
-.block h1 {
+
+.block:nth-child(2n) {
+  margin-right: 0px;
+}
+
+.block .desc {
   font-size: 28px;
 }
 .block img {
@@ -70,14 +77,12 @@ main {
   background-color: white;
   border-width: 1px;
   border-color: #626262;
-  height: 60px;
-  width: 164px;
+  padding: 16px 33px;
   font-size: 20px;
   color: #626262;
 }
 
 footer {
-     text-align: center;
-     margin-bottom: 70px;
-     
+  text-align: center;
+  margin-bottom: 70px;
 }
