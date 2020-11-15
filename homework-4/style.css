@@ -35,10 +35,12 @@ nav li {
   color: #95e1d3;
 }
 
-h5 {
+.service-body h5 {
   font-family: Montserrat-Regular, AdobeInvisFont, MyriadPro-Regular;
   font-size: 14px;
+  text-transform: uppercase;
 }
+
 header {
   display: flex;
   justify-content: flex-end;
