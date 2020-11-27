@@ -3,6 +3,10 @@ body {
   margin-left: auto;
 }
 
+main {
+  padding-top: 132px;
+}
+
 .title {
   text-align: center;
 }
@@ -103,6 +107,12 @@ footer {
 .person {
 }
 
+.person-img-bg {
+  width: 381px;
+  height: 471px;
+  background-color: red;
+}
+
 .person-desc {
   display: flex;
   align-items: center;
@@ -115,6 +125,64 @@ footer {
   object-fit: cover;
   width: 381px;
   height: 471px;
+}
+
+.person-img-container {
+  position: relative;
+}
+
+.gradient {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  position: absolute;
+  width: 381px;
+  height: 471px;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background: linear-gradient(#ef898a, #f0d989);
+}
+
+.gradient > ul li a:hover {
+  background-color: #95e1d3;
+}
+
+.person-img-container:hover .gradient,
+.person-img-container:hover .person-img {
+  opacity: 0.8;
+  transition: 300ms linear;
+  box-shadow: 10px 10px 0px 0px #95e1d3;
+  transform: translate(-10px, -10px);
+}
+
+.person:not(:hover) .gradient,
+.person-img:not(:hover) {
+  transition: 100ms linear;
+  transform: translate(0px, 0px);
+}
+
+.gradient > ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gradient > ul li:not(:last-child) {
+  border-right: 1px solid #f9bd87;
+}
+
+.gradient > ul li:not(:last-child):hover {
+  border-right: 1px solid #b9bcb3;
+}
+
+.gradient > ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 57px;
+  height: 57px;
+  background-color: #fce38a;
 }
 
 .person h4 {

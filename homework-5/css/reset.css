@@ -11,3 +11,7 @@
 body {
   max-width: 1200px;
 }
+
+ul {
+  list-style-type: none;
+}

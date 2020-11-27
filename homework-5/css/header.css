@@ -2,7 +2,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 32px auto 100px;
+  position: fixed;
+  top: 0;
+  width: 1200px;
+  height: 80px;
+  background-color: white;
+  z-index: 1;
 }
 
 .logo {
@@ -18,7 +23,7 @@ header {
 }
 
 .list-item {
-  list-style-type: none;
+  position: relative;
 }
 
 .item-link {
