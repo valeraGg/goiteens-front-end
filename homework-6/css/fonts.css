@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto&family=Roboto:ital,wght@0,400;1,300&family=Roboto+Slab:wght@400;700&display=swap");
+
+@font-face {
+  font-family: "Wisdom Script Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Wisdom Script Regular"),
+    url("../fonts/Wisdom Script AJ.woff") format("woff");
+}
+@font-face {
+  font-family: "NexaSlab Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("NexaSlab Regular"),
+    url("../fonts/NexaSlab-Regular\ 400.otf") format("otf");
+}
+@font-face {
+  font-family: "Droid Serif";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Droid Serif"), url("../fonts/droid-serif.ttf") format("ttf");
+}
+@font-face {
+  font-family: "MyriadPro Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("MyriadPro Regular"),
+    url("../fonts/MyriadPro-Regular.otf") format("otf");
+}

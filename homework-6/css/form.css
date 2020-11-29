@@ -1,0 +1,98 @@
+.contact-form {
+  background: url("../img/map.png") bottom right no-repeat;
+  background-color: #222222;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-form form {
+  flex-wrap: wrap;
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 100px auto 120px;
+}
+
+.form-column {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 456px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 941px;
+}
+
+.form-input-row {
+  justify-content: space-between;
+}
+
+input,
+textarea {
+  border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  height: 51px;
+  border: 1px solid #e7e7e7;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+textarea {
+  padding-top: 21px;
+  padding-right: 21px;
+}
+
+textarea {
+  height: 211px;
+  resize: none;
+}
+
+input[type="submit"] {
+  background-color: #fed136;
+  padding: 22px 48px;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  justify-self: center;
+}
+
+::placeholder {
+  font-family: "Montserrat", sans-serif;
+  color: #bbb;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contact-header {
+  font-family: "Roboto Slab", "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.contact-desc {
+  font-family: "Droid Serif", "Roboto Slab", serif;
+  color: #777777;
+  font-style: italic;
+  font-size: 16px;
+}
