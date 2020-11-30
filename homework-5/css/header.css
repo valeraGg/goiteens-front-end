@@ -39,3 +39,33 @@ header {
   color: #f38181;
   border-bottom: 4px solid #f38181;
 }
+
+.submenu {
+  display: none;
+}
+
+.list-item:hover .submenu {
+  display: block;
+  position: absolute;
+  padding-top: 20px;
+  left: -50px;
+  width: 160px;
+  text-align: center;
+}
+
+.submenu-item {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 8px;
+}
+
+.submenu-item-link {
+  color: #95e1d3;
+  text-transform: capitalize;
+}
+.submenu-item-link:hover {
+  color: #f38181;
+}
+.submenu-item-link:hover::before {
+  content: ">=) ";
+  color: red;
+}
