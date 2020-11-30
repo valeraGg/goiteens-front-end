@@ -84,14 +84,17 @@ input[type="submit"] {
 }
 
 .contact-header {
-  font-family: "Roboto Slab", "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 40px;
   color: #ffffff;
+  margin-bottom: 8px;
+  text-transform: uppercase;
 }
 
 .contact-desc {
   font-family: "Droid Serif", "Roboto Slab", serif;
+  font-weight: 300;
   color: #777777;
   font-style: italic;
   font-size: 16px;
