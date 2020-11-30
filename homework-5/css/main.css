@@ -57,13 +57,17 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1149px;
+  margin: 0px auto;
 }
 
 .service {
-  width: 330px;
-  min-height: 170px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  padding-left: 50px;
+  width: 340px;
+  margin-bottom: 80px;
 }
 
 .service-img {
@@ -82,6 +86,46 @@ footer {
   color: #333333;
   text-transform: uppercase;
   margin-bottom: 14px;
+}
+
+.icon:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 6px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.alert:before {
+  content: "";
+  background-image: url("../img/alarm.png");
+}
+
+.line-graph:before {
+  content: "";
+  background-image: url("../img/line-graph.png");
+}
+
+.computer:before {
+  content: "";
+  background-image: url("../img/computer.png");
+}
+
+.book:before {
+  content: "";
+  background-image: url("../img/book.png");
+}
+
+.home:before {
+  content: "";
+  background-image: url("../img/home.png");
+}
+
+.image:before {
+  content: "";
+  background-image: url("../img/image.png");
 }
 
 .service-body p {
